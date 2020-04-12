@@ -9,5 +9,4 @@ outputs:
 
 runs:
     using: 'docker'
-    image: 'docker://alpine/git:v2.24.1'
-    entrypoint: './scripts/find_last_tag_and_release.sh'
+    image: 'Dockerfile'
